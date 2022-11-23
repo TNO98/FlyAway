@@ -44,5 +44,5 @@ To deploy on a server use FlyAway.war file.
 ## Coming Up
 1. Form/Input Validation
 2. Better CSS/Frontend Styles
-3. Add a new flight 
-4. Show previous flight bookings
+3. Customer authentication
+
