@@ -21,9 +21,14 @@ A query is sent to the remote database to fetch related flights and displayed to
 The User enters other details and proceeds to book the flight.
 <br><br>
 <b>Admin</b>  - <br>
-Admin dashboard is accessed with a preset username and password.
-Admin can see all entries in database table.
-Admin can change his password after Login 
+User can register as Admin.
+Admin dashboard is accessed by logging in as admin .
+Admin can do the followings :
+  * add a flight
+  * see master-flight-list
+  * change password after logging in
+  * find the booking history with customer details
+  * logout
 
 ## Technologies
 <b>Frontend</b> - JSP, HTML, CSS, Bootstrap <br>
