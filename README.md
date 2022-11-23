@@ -23,12 +23,12 @@ The User enters other details and proceeds to book the flight.
 <b>Admin</b>  - <br>
 User can register as Admin.
 Admin dashboard is accessed by logging in as admin .
-Admin can do the followings :
-  * [add a flight]
-  * [see master-flight-list]
-  * [change password after logging in]
-  * [find the booking history with customer details]
-  * [logout]
+Admin can do the followings : <br>
+  * add a flight <br>
+  * see master-flight-list<br>
+  * change password after logging in<br>
+  * find the booking history with customer details<br>
+  * logout<br>
 
 ## Technologies
 <b>Frontend</b> - JSP, HTML, CSS, Bootstrap <br>
