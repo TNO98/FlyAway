@@ -33,7 +33,7 @@ Admin can do the followings : <br>
 ## Technologies
 <b>Frontend</b> - JSP, HTML, CSS, Bootstrap <br>
 <b>Backend</b> - JAVA Servlets <br>
-<b>Database</b> - MySQL - Hosted on a remote server at AWS RDS <br>
+<b>Database</b> - MySQL , Hibernate - Hosted on a remote server at AWS RDS <br>
 <b>Application Server</b>  - Tomcat 8.5 with Corretto 11 running on 64bit Amazon Linux 2/4.1.6 on AWS Elasticbeanstalk <br>
 
 ## Demo
