@@ -8,10 +8,10 @@
 * [Coming Up](#coming-up)
 
 ## General info
-A small flight booking demo project in <b>JAVA</b> 
+A small flight Ticket booking demo project with Admin panel in <b>JAVA</b> 
 
 ## Using the application
-Home displays the application name (FlyAway) and two options - Book Flights and Admin Panel Access
+The home page displays the application name (FlyAway) and two options - Book Flights and Admin Panel Access
 
 <img width="720" alt="flyaway-screenshot-homepage" src="Screenshots/home.png">
 <br><br>
