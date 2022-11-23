@@ -40,6 +40,9 @@
 		<a class="btn btn-primary mx-3" href="change-password.html">
 			change password	
 		</a>
+		<a class="btn btn-primary mx-3" href="booking-history.jsp">
+			booking history
+		</a>
 		<a class="btn btn-primary mx-3" href="logout.jsp">
 			Logout	
 		</a>
