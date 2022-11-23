@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="assets/bootstrap.min.css">
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body class="d-flex flex-column min-vh-100">
+	<header class="container">
+		<nav class="navbar navbar-expand-lg bg-light ">
+			<div class="container-fluid text-right">
+				<a href=" index.html" class="navbar-brand mx-auto ms-md-5 "> <img
+					src="assets/logo.png" alt="Logo" height="60px" width="180px" /></a>
+			</div>
+			<div class="mx-auto me-md-3 my-auto">
+
+				<button class="btn btn-primary   admin-btn" type="submit">Admin</button>
+
+			</div>
+
+
+		</nav>
+
+	</header>
+
+	<div class="container">
+		<div class="row ms-md-1 ">
+			<div class="col-md-6 p-md-5 ">
+				<div class="card m-5">
+					<h3 class="card-header text-center  bg-white">Admin SignUp</h3>
+					<div class="card-body bg-white">
+						<form action="admin-signup.jsp" method="post">
+							<div class="form-group">
+								<label for="email">Email</label> <input type="email"
+									class="form-control" required="required" name="admin-email" id="email" />
+
+							</div>
+
+							<div class="form-group">
+								<label for="username">Password</label> <input type="password"
+									class="form-control" name="admin-pass" required="required" id="password" />
+
+							</div>
+							<div class="form-group">
+								<label for="password"> Confirm Password</label> <input type="password"
+									class="form-control" name="admin-repeat-pass" required="required" id="password" />
+
+							</div>
+
+
+							<div class="form-group mt-3">
+								<input type="submit" class="btn btn-primary" name= "admin-login" value="Register" />
+							</div>
+
+						</form>
+						
+					</div>
+				</div>
+
+
+			</div>
+
+			<div class="col-md-6 ">
+				<img class="d-none d-md-block" src="assets/flyaway.png" alt="flight"
+					height="100%" width="100%" />
+			</div>
+
+		</div>
+	</div>
+
+
+
+	<footer class="bg-light text-center text-lg-start mt-auto">
+		<!-- Copyright -->
+		<div class="text-center p-3">
+			© 2022 Copyright:
+			<h5 class="text-dark">flyAway | Developed by Malay Sarkar</h5>
+		</div>
+		<!-- Copyright -->
+	</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+
+  
+
+.form-control:focus {
+        border-color: #2BAAE2;
+        box-shadow: 0 0 0 0.05rem rgba(40, 167, 69, 0.25);
+    } 
+    
+.btn-primary{
+	background-color: #2BAAE2
+}
+
+.admin-btn{
+	background-color: #2BAAE2
+}
+
+
+
+
+
+/* .card-header{ */
+/* 	background-color: #2BAAE2 */
+/* } */

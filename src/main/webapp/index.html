@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<link rel="stylesheet" href="assets/bootstrap.min.css">
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body class="d-flex flex-column min-vh-100">
+	<header class="container">
+		<nav
+			class="navbar navbar-expand-lg bg-light ">
+			<div class="container-fluid text-right">
+				<a href=" index.html" class="navbar-brand mx-auto ms-md-5 "> <img 
+					src="assets/logo.png" alt="Logo" height="60px" width="180px" /></a>
+			</div>
+			<div class="mx-auto me-md-3 my-auto">
+
+				<a class="btn btn-primary   admin-btn" href="admin-login-check.jsp">Admin</a>
+
+			</div>
+
+
+		</nav>
+
+	</header>
+
+	<div class="container">
+		<div class="row ms-md-1 ">
+			<div class="col-md-6 p-md-5 ">
+				<div class="card m-5">
+					<h3 class="card-header  text-center bg-white">Book a flight</h3>
+					<div class="card-body bg-white">
+						<form action="customer-registration.jsp" method="post">
+
+							<div class="form-group">
+								<label for="source">Source</label> 
+								<select class="form-control" name="source" id="source">
+									<option value="kolkata" selected="selected">Kolkata</option>
+									<option value="delhi">Delhi</option>
+									<option value="mumbai">Mumbai</option>
+									<option value="hyderabad">Hyderabad</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="destination">Destination</label> 
+								<select class="form-control" name= "destination" id="destination">
+									<option value="kolkata">Kolkata</option>
+									<option value="delhi" selected="selected">Delhi</option>
+									<option value="mumbai">Mumbai</option>
+									<option value="hyderabad">Hyderabad</option>
+								</select>
+							</div>
+
+							<div class="form-group">
+								<label for="number-of-person">Number of passengers</label> <input
+									type="number" class="form-control" name="number-of-person" id="number-of-person"
+									min="1" max="5" />
+
+							</div>
+
+							<div class="form-group">
+								<label for="travel-date">Travel Date</label> <input
+									type="date" class="form-control" name="travel-date" id="travel-date" min="" max="" />
+
+							</div>
+
+							<div class="form-group mt-3">
+								<input type="submit" class="btn btn-primary" value="Book flight" />
+							</div>
+
+						</form>
+					</div>
+				</div>
+
+
+			</div>
+
+			<div class="col-md-6 ">
+				<img class="d-none d-md-block" src="assets/flyaway.png" alt="flight" height="100%"
+					width="100%" />
+			</div>
+
+		</div>
+	</div>
+
+
+
+	<footer class="bg-light text-center text-lg-start mt-auto">
+		<!-- Copyright -->
+		<div class="text-center p-3">
+			© 2022 Copyright:
+			<h5 class="text-dark">flyAway |
+				Developed by Malay Sarkar</h5>
+		</div>
+		<!-- Copyright -->
+	</footer>
+	
+	<script type="text/javascript">
+	
+		var today = new Date();
+		var dd = today.getDate();
+		var mm = today.getMonth()+1; //January is 0 so need to add 1 to make it 1!
+		var yyyy = today.getFullYear();
+		if(dd<10){
+		  dd='0'+dd
+		} 
+		if(mm<10){
+		  mm='0'+mm
+		} 
+	
+		today = yyyy+'-'+mm+'-'+dd;
+		document.getElementById("travel-date").setAttribute("min", today);
+	
+	</script>
+
+
+</body>
+</html>

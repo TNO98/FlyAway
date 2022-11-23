@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="assets/bootstrap.min.css">
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body class="d-flex flex-column min-vh-100">
+	<header class="container">
+		<nav class="navbar navbar-expand-lg bg-light ">
+			<div class="container-fluid text-right">
+				<a href=" index.html" class="navbar-brand mx-auto ms-md-5 "> <img
+					src="assets/logo.png" alt="Logo" height="60px" width="180px" /></a>
+			</div>
+			<div class="mx-auto me-md-3 my-auto">
+
+				<a class="btn btn-primary   admin-btn" href="admin-login-check.jsp">Admin</a>
+
+			</div>
+
+
+		</nav>
+
+	</header>
+
+	<div class="container">
+		<div class="row ms-md-1 ">
+			<div class="col-md-6 p-md-5 ">
+				<div class="card m-5">
+					<h3 class="card-header text-center  bg-white">Add a Flight
+						</h3>
+					<div class="card-body bg-white">
+						<form action="add-flight.jsp" method="post">
+							<div class="form-group">
+								<label for="flight-name">Flight Name</label> <input type="text"
+									class="form-control" required="required" name="flight-name"
+									id="flight-name" />
+
+							</div>
+
+							<div class="form-group">
+								<label for="source">Source</label> 
+								<select class="form-control" name="source" id="source">
+									<option value="kolkata" selected="selected">Kolkata</option>
+									<option value="delhi">Delhi</option>
+									<option value="mumbai">Mumbai</option>
+									<option value="hyderabad">Hyderabad</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="destination">Destination</label> 
+								<select class="form-control" name= "destination" id="destination">
+									<option value="kolkata">Kolkata</option>
+									<option value="delhi" selected="selected">Delhi</option>
+									<option value="mumbai">Mumbai</option>
+									<option value="hyderabad">Hyderabad</option>
+								</select>
+							</div>
+
+							<div class="form-group">
+								<label for="days">Days available:</label> <br>
+								 <select name="days"
+									id="days" multiple>
+									<option value="Sunday">Sunday</option>
+									<option value="Monday">Monday</option>
+									<option value="Tuesday">Tuesday</option>
+									<option value="Wednesday">Wednesday</option>
+									<option value="Thursday">Thursday</option>
+									<option value="Friday">Friday</option>
+									<option value="Saturday">Saturday</option>
+									
+								</select>
+								<br>
+								<p class="text-muted">*Press and hold ctrl to select multiple days</p>
+
+							</div>
+							
+							<div class="form-group">
+								<label for="ticket-price">Ticket Price</label> <input
+									type="number" class="form-control" id="ticket-price" name="ticket-price"
+									min="2000"/>
+
+							</div>
+
+
+							<div class="form-group mt-3">
+								<input type="submit" class="btn btn-primary" name="add-flight"
+									value="Add Flight" />
+							</div>
+
+						</form>
+
+					</div>
+				</div>
+
+
+			</div>
+
+			<div class="col-md-6 ">
+				<img class="d-none d-md-block" src="assets/flyaway.png" alt="flight"
+					height="100%" width="100%" />
+			</div>
+
+		</div>
+	</div>
+
+
+
+	<footer class="bg-light text-center text-lg-start mt-auto">
+		<!-- Copyright -->
+		<div class="text-center p-3">
+			© 2022 Copyright:
+			<h5 class="text-dark">flyAway | Developed by Malay Sarkar</h5>
+		</div>
+		<!-- Copyright -->
+	</footer>
+
+
+</body>
+</html>
