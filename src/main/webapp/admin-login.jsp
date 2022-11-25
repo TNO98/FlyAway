@@ -3,8 +3,7 @@
 <%@page import="com.dao.AdminDao"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    
-<%@page errorPage="error-page.jsp" %>
+ <%@page errorPage="error-page.jsp" %>
 <!DOCTYPE html>
 <html>
 <head>
