@@ -3,7 +3,7 @@
 * [General info](#general-info)
 * [Using the application](#using-the-application)
 * [Technologies](#technologies)
-* [Live Demo](#Live Demo)
+* [Live Demo](#Live-Demo)
 * [Setup](#setup)
 * [Coming Up](#coming-up)
 
