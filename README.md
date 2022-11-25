@@ -33,8 +33,9 @@ Admin can do the followings : <br>
 ## Technologies
 <b>Frontend</b> - JSP, HTML, CSS, Bootstrap <br>
 <b>Backend</b> - JAVA Servlets <br>
-<b>Database</b> - MySQL , Hibernate - Hosted on a remote server at AWS RDS <br>
-<b>Application Server</b>  - Tomcat 8.5 with Corretto 18 running on 64bit Amazon Linux 2/4.1.6 on AWS EC2 <br>
+<b>Session Management</b> - Http Session <br>
+<b>Database</b> - MySQL , Hibernate - Hosted on a remote server at AWS EC2 <br>
+<b>Application Server</b>  - Tomcat 8.5 with Corretto 18 running on 64bit Ubuntu 22.04 on AWS EC2 <br>
 
 ## Live Demo
 Application is hosted here - http://52.68.173.205:8080/FlyAway/
