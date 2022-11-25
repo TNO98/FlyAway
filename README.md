@@ -3,7 +3,7 @@
 * [General info](#general-info)
 * [Using the application](#using-the-application)
 * [Technologies](#technologies)
-* [Demo](#demo)
+* [Live Demo](#demo)
 * [Setup](#setup)
 * [Coming Up](#coming-up)
 
@@ -36,7 +36,7 @@ Admin can do the followings : <br>
 <b>Database</b> - MySQL , Hibernate - Hosted on a remote server at AWS RDS <br>
 <b>Application Server</b>  - Tomcat 8.5 with Corretto 18 running on 64bit Amazon Linux 2/4.1.6 on AWS EC2 <br>
 
-## Demo
+## Live Demo
 Application is hosted here - http://52.68.173.205:8080/FlyAway/
 
 ## Setup
