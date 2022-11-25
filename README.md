@@ -18,7 +18,7 @@ The home page displays the application name (FlyAway) and two options - Book Fli
 <b>Book Flights</b>  - <br>
 The user enters flight details (date, source, destination, travellers). 
 A query is sent to the remote database to fetch related flights and displayed to user.
-The User enters other details and proceeds to book the flight.
+The User enters other details and proceeds to book the flight and finally can print the ticket.
 <br><br>
 <b>Admin</b>  - <br>
 User can register as Admin.
@@ -34,10 +34,10 @@ Admin can do the followings : <br>
 <b>Frontend</b> - JSP, HTML, CSS, Bootstrap <br>
 <b>Backend</b> - JAVA Servlets <br>
 <b>Database</b> - MySQL , Hibernate - Hosted on a remote server at AWS RDS <br>
-<b>Application Server</b>  - Tomcat 8.5 with Corretto 11 running on 64bit Amazon Linux 2/4.1.6 on AWS Elasticbeanstalk <br>
+<b>Application Server</b>  - Tomcat 8.5 with Corretto 18 running on 64bit Amazon Linux 2/4.1.6 on AWS EC2 <br>
 
 ## Demo
-Application is hosted here - https://flyaway-abhi.herokuapp.com/
+Application is hosted here - http://52.68.173.205:8080/FlyAway/
 
 ## Setup
 To run in your localhost - Clone into local and run project on tomcat server. If any issue check artifact is build properly.
@@ -50,4 +50,5 @@ To deploy on a server use FlyAway.war file.
 1. Form/Input Validation
 2. Better CSS/Frontend Styles
 3. Customer authentication
+3. Admin defined Airports and many more
 
