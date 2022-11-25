@@ -40,7 +40,7 @@ Admin can do the followings : <br>
 Application is hosted here - http://52.68.173.205:8080/FlyAway/
 
 ## Setup
-To run in your localhost - Clone into local and run project on tomcat server. If any issue check artifact is build properly.
+To run in your localhost - Clone into local and run project on tomcat server. If any issue check artifact is build properly. also check the database config and java version
 <br>
 Check screenshots for tomcat configuration
 <br><br>
