@@ -38,7 +38,7 @@ Admin can do the followings : <br>
 <b>Application Server</b>  - Tomcat 8.5 with Corretto 18 running on 64bit Ubuntu 22.04 on AWS EC2 <br>
 
 ## Live Demo
-Application is hosted here - http://65.2.180.252:8080/FlyAway/index.html
+Application is hosted here - http://13.234.84.77:8080/FlyAway/index.html
 
 ## Setup
 To run in your localhost - Clone into local and run project on tomcat server. If any issue check artifact is build properly. also check the database config and java version
